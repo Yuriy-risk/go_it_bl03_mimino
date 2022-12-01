@@ -1,5 +1,6 @@
 .footer {
     display: flex;
+    margin: auto;
     justify-content: space-around;
     align-items: center;
     width: 100%;
@@ -35,19 +36,9 @@
                 $bg-gradient-footer-color 942px,
                 $footer-background-color  943px);
     }
-
-
 }
 
 
-.footer__soc-name {
-    display: none;
-
-    @media screen and (min-width: 1024px) {
-        display: flex;
-        margin-right: 15px;
-    }
-}
 
 .footer__logo {
     font-family: 'Film P3', sans-serif;
@@ -76,6 +67,8 @@
     
     }
 }
+
+
 .footer__nav {
     display: flex;
     flex-direction: column;
@@ -106,6 +99,17 @@
         margin-bottom: 16px;
       }
 
+
+.footer__soc-name {
+        display: none;
+    
+        @media screen and (min-width: 1024px) {
+            display: flex;
+            margin-right: 15px;
+        }
+    }
+
+
  .footer__soc {
  display: flex;
  gap: 20px;
@@ -117,7 +121,7 @@
      gap: 0px;
      color: $accent-color;
     }
-    }
+ }
 
 .footer__icon {
 fill: $icons-footer-color;
@@ -142,7 +146,6 @@ fill: $icons-footer-color;
         color: $accent-color;
 
        }
-
  }
        
  .footer__box {
@@ -154,7 +157,6 @@ fill: $icons-footer-color;
         flex-direction: row;
         
     }
-
  }
 
  @media screen and (min-width: 1024px) {
@@ -164,46 +166,3 @@ fill: $icons-footer-color;
      }
  }
  
-
-
-.bg-gradient {
-    width: 414px;
-    height: 1191px;
-    background-image: linear-gradient(to right,
-            $background-light-color 138px,
-            $bg-gradient-color 139px,
-            $background-light-color 140px,
-            $background-light-color 273px,
-            $bg-gradient-color 274px,
-            $background-light-color 275px);
-
-    @media screen and (min-width: 1024px) {
-        width: 1024px;
-        height: 1238px;
-        background-image: linear-gradient(to right,
-                $background-light-color 278px,
-                $bg-gradient-color 279px,
-                $background-light-color 280px,
-                $background-light-color 511px,
-                $bg-gradient-color 512px,
-                $background-light-color 513px,
-                $background-light-color 745px,
-                $bg-gradient-color 746px,
-                $background-light-color 747px);
-    }
-
-    @media screen and (min-width: 1280px) {
-        width: 1280px;
-        height: 1257px;
-        background-image: linear-gradient(to right,
-                $background-light-color 338px,
-                $bg-gradient-color 339px,
-                $background-light-color 340px,
-                $background-light-color 639px,
-                $bg-gradient-color 640px,
-                $background-light-color 641px,
-                $background-light-color 941px,
-                $bg-gradient-color 942px,
-                $background-light-color 943px);
-    }
-}
