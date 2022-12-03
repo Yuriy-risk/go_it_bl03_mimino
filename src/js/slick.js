@@ -1,4 +1,4 @@
-$('.variable-width').slick({
+/* $('.variable-width').slick({
   prevArrow: '<button type="button" class="my-slick-prev2">&xlarr;</button>',
   nextArrow: '<button type="button" class="my-slick-next2">&xrarr;</button>',
   dots: false,
@@ -9,3 +9,4 @@ $('.variable-width').slick({
   centerMode: true,
   variableWidth: true
 });
+ */
